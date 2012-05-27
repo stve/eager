@@ -2,6 +2,8 @@
 
 Simple eager-loading for ruby.
 
+*Note: Eager is not yet available on rubygems.org.*
+
 ## Usage
 
 ```ruby
