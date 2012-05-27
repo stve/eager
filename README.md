@@ -28,4 +28,4 @@ Pull requests welcome: fork, make a topic branch, commit (squash when possible) 
 
 ## Copyright
 
-Copyright (c) 2012 Steve Agalloco. See [LICENSE](https://github.com/spagalloco/gem_template/blob/master/LICENSE.md) for detail
+Copyright (c) 2012 Steve Agalloco. See [LICENSE](https://github.com/spagalloco/eager/blob/master/LICENSE.md) for detail
