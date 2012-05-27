@@ -1,10 +1,22 @@
-# Gem Template
+# Eager
 
-This was derived from [Code for America](http://codeforamerica.org/)'s gem template which was awesome, I just changed a few things based on personal preference.
-
-Everything below here is mostly boilerplate
+Simple eager-loading for ruby.
 
 ## Usage
+
+```ruby
+module MyGem
+  extend Eager
+
+  register_autoloads(self) do
+    autoload :Util, 'util'
+  end
+end
+```
+
+By default, Eager will serve as a pass-thru to autoload on your class. Eager
+will also add an `eager_load!` method to your class as a means to require all
+defined autoloads for thread-safety.
 
 ## Contributing
 
